@@ -1,0 +1,8 @@
+User-agent: Mediapartners-Google
+Disallow:
+
+User-agent: *
+Disallow: /admin/
+Crawl-delay: 10
+
+Sitemap: http://localhost/sitemap.xml

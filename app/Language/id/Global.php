@@ -1,0 +1,52 @@
+<?php
+
+return [
+	'all' => 'All',
+	'home' => 'Home',
+
+	// date and time 
+	'date' => 'Date',
+	'date_time' => 'Date Time',
+	'time' => 'Time',
+	'day' => 'Day',
+	'month' => 'Month',
+	'year' => 'Year',
+	'today' => 'Today',
+	'yesterday' => 'Yesterday',
+	'tommorow' => 'Tommorow',
+	'this_week' => 'This Week',
+	'this_month' => 'This Month',
+	'this_year' => 'This Year',
+	'weekly' => 'Weekly',
+	'monthly' => 'Monthly',
+	
+	'morning' => 'Morning',
+	'afternoon' => 'Afternoon',
+	'night' => 'Night',
+	'good_morning' => 'Good Morning',
+	'good_afternoon' => 'Good Afternoon',
+	'good_night' => 'Good Night',
+	
+	'balance' => 'Balance',
+	'increase' => 'Increase',
+	'decrease' => 'Decrease',
+	
+	'select' => 'Select',
+	'filter' => 'Filter',
+	'filter_by_date' => 'Filter By Date',
+	'category' => 'Category',
+	'writer' => 'Writer',
+	'status' => 'Status',
+	'ip_address' => 'IP Address',
+	'title' => 'Title',
+	'image' => 'Image',
+	'images' => 'Images',
+	'total_views' => 'Total Views',
+	'created_time' => 'Created Time',
+	'options' => 'Options',
+	'user_agent' => 'User Agent',
+	'requested_url' => 'Requested URL',
+	'access_time' => 'Access Time',
+	'action' => 'Action',
+	'description' => 'Description',
+];

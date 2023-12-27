@@ -1,0 +1,15 @@
+<IfModule mod_rewrite.c>
+	RewriteEngine On
+	RewriteCond %{REQUEST_FILENAME} !-f
+	RewriteCond %{REQUEST_FILENAME} !-d
+	RewriteRule ^(.*)$ index.php/$1 [L]
+
+	#RewriteEngine On
+	#RewriteCond %{HTTP_HOST} ^rf-revival.com [NC]
+	#RewriteRule (.*) https://www.rf-revival.com/$1
+	
+	RewriteOptions Inherit
+</IfModule>
+<IfModule mod_deflate.c>
+	AddOutputFilterByType DEFLATE application/x-javascript text/css text/html text/xml
+</IfModule>
